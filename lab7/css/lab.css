@@ -1,16 +1,16 @@
 body {
-    font-family: Helvetica, Verdana, Arial, "san serif";
+    font-family: Arial, "san serif";
     background-color: black;
-    padding: 25px;
+    padding: 18px;
     font-size: 120%;
+    color: #fff;
 }
 
 div#content {
-    padding: 50px;
+    padding: 35px;
     background-color: black;
-    border: solid 2px #333333;
-    border-color: #fff
-    height: 143vh;
+    border: solid 2px red;
+    height: 110vh;
 }
 
 
@@ -22,11 +22,14 @@ img {
     float: right;
     width: 400px;
     height: auto;
+    padding: 25px;
+    filter: saturate(400%);
+    filter: hue-rotate(9 deg);
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: red;
 }
 a:hover {
     text-decoration: underline;
