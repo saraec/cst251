@@ -1,0 +1,51 @@
+
+ @import url("https://use.typekit.net/oxu2zfz.css");
+
+body {
+    font-family: Arial, "san serif";
+    background-color: black;
+    padding: 18px;
+    font-size: 125%;
+    color: white;
+}
+
+div#content {
+    padding: 35px;
+    background-image: url(../img/stars.jpg);
+    height: 150vh;
+    border: solid 2px orange;
+}
+
+
+h1, h2, h3 {
+    font-family: amador, sans-serif;
+    font-weight: 400;
+    font-size: 165%;
+    font-style: normal;
+}
+
+h1 {
+  font-size: 245%;
+}
+
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+    padding: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+h1:hover {
+  font-size: 260%;
+}
