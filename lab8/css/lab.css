@@ -3,29 +3,30 @@
 
 body {
     font-family: Arial, "san serif";
-    background-color: black;
+        background-color: #e9e5da;
     padding: 18px;
     font-size: 125%;
-    color: white;
+    color: #e9e5da;
 }
 
 div#content {
-    padding: 35px;
-    background-image: url(../img/stars.jpg);
-    height: 150vh;
-    border: solid 2px orange;
+  padding: 35px;
+  background-color: #1c2224;
+  height: 150vh;
+  border: solid 5px #ac9f84;
 }
 
 
 h1, h2, h3 {
-    font-family: amador, sans-serif;
-    font-weight: 400;
-    font-size: 165%;
+    font-family: sabbath-black, serif;
+    font-weight: 800;
     font-style: normal;
-}
+    font-family: amador, sans-serif;
+    font-size: 175%;
+    }
 
-h1 {
-  font-size: 245%;
+h1:hover {
+  font-size: 300%;
 }
 
 
@@ -33,12 +34,16 @@ img {
     float: right;
     width: 400px;
     height: auto;
-    padding: 35px;
+    padding:35px;
 }
 
+.paragraph{
+  color:#ac9f84;
+  font-size: 85%;
+}
 a {
     text-decoration: none;
-    color: orange;
+    color: black;
 }
 
 a:hover {
