@@ -3,7 +3,7 @@
 
 body {
     font-family: Arial, "san serif";
-        background-color: #e9e5da;
+    background-color: #e9e5da;
     padding: 18px;
     font-size: 125%;
     color: #e9e5da;
@@ -12,7 +12,7 @@ body {
 div#content {
   padding: 35px;
   background-color: #1c2224;
-  height: 150vh;
+  height: 120vh;
   border: solid 5px #ac9f84;
 }
 
