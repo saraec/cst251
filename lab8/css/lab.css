@@ -25,21 +25,21 @@ h1, h2, h3 {
     font-size: 175%;
     }
 
-h1:hover {
+h1 {
   font-size: 300%;
 }
 
 
 img {
     float: right;
-    width: 400px;
+    width: 350px;
     height: auto;
     padding:35px;
 }
 
 .paragraph{
   color:#ac9f84;
-  font-size: 85%;
+  font-size: 80%;
 }
 a {
     text-decoration: none;
@@ -51,6 +51,6 @@ a:hover {
     text-decoration-style: wavy;
 }
 
-h1:hover {
-  font-size: 260%;
+img:hover{
+  width: 450px
 }
