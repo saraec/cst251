@@ -12,7 +12,7 @@ body {
 div#content {
   background-color: #888787ad;
   padding: 45px;
-  height: 110vh;
+  height: 95vh;
   border: solid 8px darkgray;
   margin: 2px;
 }
@@ -45,6 +45,11 @@ img{
   height: auto;
   width: 350px;
   padding: 15px;
+}
+
+img:hover {
+    width: 425px;
+    transition: all .5s;
 }
 
 a {
