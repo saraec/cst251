@@ -39,3 +39,20 @@ background-image{
   width: 1500px;
   filter: opacity(90%);
 }
+
+img{
+  float: right;
+  height: auto;
+  width: 350px;
+  padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff69b4;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
