@@ -49,12 +49,14 @@ img{
 
 img:hover {
     width: 425px;
+    filter: invert(1);
     transition: all .5s;
 }
 
 a {
     text-decoration: none;
-    color: #ff69b4;
+    color: #8f00ff;
+    font-size: 120%;
 }
 
 a:hover {
