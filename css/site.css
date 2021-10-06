@@ -1,1 +1,24 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #db9c74;
+    padding: 25px;
+    font-size: 120%;
+}
 
+div#content {
+    padding: 50px;
+    background-color: #8fa581;
+    border: solid 3px #cd6c1f;
+    height: 105vh;
+}
+
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
