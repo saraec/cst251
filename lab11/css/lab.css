@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 body {
     background-color: #292626;
     font-family: Arial, "san serif";
-    padding: 18px;
-    margin: 50px;
+    padding: 8px;
+    margin: 25px;
     font-size: 125%;
-    color: #ffffff;
+    color: #fbf8f4;
 }
 
-div#content {
-  padding: 35px;
+main#content {
+  margin-top: 20px;
+  padding: 25px;
+  padding-left: 40px;
   background-color: #617257;
-  height: 110vh;
-  border: solid 5px #976034;
-  text-align: center;
+  height: 750px;
+  width: 62%;
+  border: solid 5px #516139;
 }
-
 
 h1, h2, h3 {
-    font-family: 'Gideon Roman', cursive;
+    font-family: 'Shrikhand', cursive;
     font-weight: 800;
     font-style: normal;
     font-size: 175%;
@@ -36,12 +37,30 @@ h1 {
   font-size: 75%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+#sidebar {
+  display: inline-block;
+  float: right;
+  margin: 8px;
+  width: 30%;
+  min-width: 300px;
+  background-color: #516139;
+  font-color: #292626;
+}
+
+#links {
+  font-color: #617257;
+  background-color: #fbf8f4;
+  position: sticky;
+  top: 0;
+  padding: 1px;
 }
 
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
+    text-color: #fbf8f4;
+}
+
+img{
+  width: 600px;
 }
