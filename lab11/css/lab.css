@@ -2,7 +2,7 @@
 
 body {
     background-color: #292626;
-    font-family: Arial, "san serif";
+    font-family: cursive;
     padding: 8px;
     margin: 25px;
     font-size: 125%;
@@ -13,10 +13,10 @@ main#content {
   margin-top: 20px;
   padding: 25px;
   padding-left: 40px;
-  background-color: #617257;
-  height: 750px;
+  background-color: #d88ea7;
+  height: 1150px;
   width: 62%;
-  border: solid 5px #516139;
+  border: solid 5px #efabc2;
 }
 
 h1, h2, h3 {
@@ -28,7 +28,7 @@ h1, h2, h3 {
     }
 
 h1 {
-  font-size: 300%;
+  font-size: 275%;
   letter-spacing: 4px;
 }
 
@@ -38,13 +38,15 @@ h1 {
 }
 
 #sidebar {
+  font-family: cursive;
   display: inline-block;
   float: right;
   margin: 8px;
+  padding: 3px;
   width: 30%;
   min-width: 300px;
-  background-color: #516139;
-  font-color: #292626;
+  background-color: #fbf8f4;
+  color: #d88ea7;
 }
 
 #links {
@@ -62,5 +64,6 @@ a:hover {
 }
 
 img{
-  width: 600px;
+  width: 650px;
+  left: 0;
 }
