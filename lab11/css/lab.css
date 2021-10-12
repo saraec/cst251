@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 body {
-    background-color: #292626;
+    background-color: #030a14;
     font-family: cursive;
     padding: 8px;
     margin: 25px;
@@ -43,6 +43,7 @@ h1 {
   float: right;
   margin: 8px;
   padding: 3px;
+  margin-bottom: 15px;
   width: 30%;
   min-width: 300px;
   background-color: #fbf8f4;
@@ -65,5 +66,6 @@ a:hover {
 
 img{
   width: 650px;
-  left: 0;
+  left: 8px;
+  bottom: 20px;
 }
