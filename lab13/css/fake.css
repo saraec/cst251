@@ -1,0 +1,58 @@
+body {
+    background-size: cover;
+    font-family: Arial, "san serif";
+    padding: 18px;
+    margin: 20px;
+    font-size: 125%;
+    color: black;
+}
+
+#main{
+      position: relative;
+      width: 100vw;
+      max-width: 100%;
+      height: 100vh;
+      z-index: -100;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      border: solid 3px green;
+}
+
+.menu li{
+  color: green;
+  text-align: center;
+  display: inline-block;
+}
+
+.right-corner{
+  border-color: green;
+  color: green;
+  height: 7px;
+  width: 100%
+}
+
+.chimp{
+  border-color: green;
+}
+
+.tips{
+  letter-spacing: -2.5px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 400px;
+  display: block;
+  margin: 10px;
+}
+}
+
+.holiday{
+  border-color: black;
+}
+
+.year{
+  border-color: orange;
+}
