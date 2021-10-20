@@ -25,18 +25,16 @@ body {
   display: inline-block;
 }
 
-.right-corner{
-  border-color: green;
-  color: green;
+.cloud{
   height: 7px;
   width: 100%
 }
 
-.chimp{
+.buttons{
   border-color: green;
 }
 
-.tips{
+.hello{
   letter-spacing: -2.5px;
   position: relative;
   top: 50%;
@@ -47,12 +45,11 @@ body {
   display: block;
   margin: 10px;
 }
-}
 
-.holiday{
+.text{
   border-color: black;
 }
 
-.year{
+.free{
   border-color: orange;
 }
