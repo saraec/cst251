@@ -14,9 +14,11 @@
 }
 
 #nav  {
-  display: inline-block;
-  position: absolute;
+  display: flex;
+  flex-direction: row;
   width: 100%;
+  align-items: center;
+  position: absolute;
   height: 30px;
   padding: 30px;
   background-color: #white;
@@ -25,13 +27,9 @@
   left: 0;
 }
 
-ul {
-  display: block;
-  list-style-type: none;
-  margin-block-start: 1em;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.cloud {
+  top: 0;
+  right: 50%;
 }
 
 h1 {
@@ -45,9 +43,6 @@ h1: hover {
   text-decoration: underline;
   text-decoration-style: solid;
   color: black;
-}
-li {
-  float: left;
 }
 
 img {
@@ -101,6 +96,7 @@ div#center-box{
 #text-box {
   position: absolute;
   display: block;
+  text-align: center;
   width: 25%;
   height: 40px;
 }
@@ -110,13 +106,14 @@ div#center-box{
   border: solid 1px #b5b4b4;
   border-radius: 40px;
   padding: 5px;
-  margin: 3px;
+  margin-right: 35px;
   top: 0;
   right: 0;
+  float: right;
 }
 
 h2 {
- font-size: 90%;
+ font-size: 55%;
 }
 
 #blue-box {
@@ -125,9 +122,10 @@ h2 {
   text-align: center;
   border: solid 1px lightgray;
   border-radius: 40px;
-  width: 150px;
+  width: 90px;
   padding: 4px;
   margin: 3px;
+  position: relative;
 }
 
 div#blue-box {
