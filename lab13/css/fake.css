@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 #main{
+  font-family: arial, "sans-serif";
+  color: darkgray;
   background-color: white;
   position: relative;
   width: 100vw;
@@ -30,15 +34,18 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: left;
+a {
+  text-decoration: none;
+  color: lightgray;
 }
 
-li a {
-  display: block;
+a: hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
   color: black;
-  text-align: center;
-  padding: 16px;
+}
+li {
+  float: left;
 }
 
 img {
@@ -48,18 +55,7 @@ img {
   padding-right: 100px;
 }
 
-a {
-  text-decoration: none;
-  color: black:
-}
-
-a: hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-}
-
-#title-box {
-  font-size: 300%;
+#center-box {
   position: relative;
   height: 400px;
   width: 700px;
@@ -68,12 +64,47 @@ a: hover {
   transform: translate(-50%, -50%);
 }
 
+#title-box {
+  font-family: 'Roboto', sans-serif;
+  font-size: 900%;
+  font-weight: 100;
+  letter-spacing: -16px;
+}
+
+
+.h {
+  color: #dec14f;
+}
+
+.e, .period{
+  color: #eeb08a;
+}
+
+.l {
+  color: #80ceba;
+}
+
+.o {
+ color: #e26f61;
+}
+
 .button {
+  background-color: white;
+  border: solid 1px #b5b4b4;
+  border-radius: 40px;
+  padding: 5px;
+  margin: 3px;
   top: 0;
   right: 0;
 }
 
-#blue-box button {
-  background-color: blue;
+#blue-box {
+  background-color: #2ab2fe;
+  color: white;
+  text-align: center;
+  border: solid 1px lightgray;
   border-radius: 40px;
+  width: 12%;
+  padding: 10px;
+  margin: 3px;
 }
