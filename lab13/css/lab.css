@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body {
-    background-image: url(../img/twilight.jpg);
+    background-image: url(../img/dekooning.jpg);
     background-size: cover;
     font-family: Arial, "san serif";
     padding: 18px;
     margin: 50px;
     font-size: 125%;
-    color: #ffffff;
+    color: #214151;
 }
 
 div#content {
-  padding: 35px;
-  background-color: #445e5ecf;
-  height: 110vh;
-  border: solid 5px #976034;
-  text-align: center;
+  padding-top: 35px;
+  padding-left: 20px;
+  background-color: #b18e76;
+  height: 100vh;
+  border: solid 5px #214151;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 
 h1, h2, h3 {
-    font-family: 'Gideon Roman', cursive;
+    font-family: 'Fredoka One', cursive;
     font-weight: 800;
     font-style: normal;
     font-size: 175%;
@@ -37,6 +39,15 @@ h1 {
   font-size: 75%;
 }
 
+#links {
+  background-color: ##b18e76;
+  position: sticky;
+  top: 0;
+  padding: 1px;
+  color: #653530;
+  border: dashed 5px #214151;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -45,4 +56,11 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
 }
