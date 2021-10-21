@@ -16,6 +16,7 @@
 #nav  {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   width: 100%;
   align-items: center;
   position: absolute;
@@ -32,14 +33,14 @@
   right: 50%;
 }
 
-h1 {
+.left-top {
   font-size: 85%;
   word-spacing: 8px;
   text-decoration: none;
   color: lightgray;
 }
 
-h1: hover {
+.left:hover {
   text-decoration: underline;
   text-decoration-style: solid;
   color: black;
@@ -63,17 +64,17 @@ div#center-box{
   position: relative;
   height: 400px;
   width: 700px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-right: 100px'
 }
 
 #title-box {
   font-family: 'Roboto', sans-serif;
   font-size: 900%;
   font-weight: 100;
+  text-align:-webkit-center;
   letter-spacing: -16px;
   text-decoration: none;
+  width: 108%;
 }
 
 
@@ -97,8 +98,8 @@ div#center-box{
   position: absolute;
   display: block;
   text-align: center;
-  width: 25%;
-  height: 40px;
+  width: 108%;
+  height: 50px;
 }
 
 .button {
@@ -130,7 +131,7 @@ h2 {
 
 div#blue-box {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 53%;
     transform: translate(-50%, -50%);
 }
