@@ -14,7 +14,7 @@ div#content {
   padding-top: 35px;
   padding-left: 20px;
   background-color: #b18e76;
-  height: 100vh;
+  height: 121vh;
   border: solid 5px #214151;
   margin-top: 15px;
   margin-bottom: 50px;
@@ -40,12 +40,12 @@ h1 {
 }
 
 #links {
-  background-color: ##b18e76;
+  background-color: #b18e76;
   position: sticky;
   top: 0;
   padding: 1px;
   color: #653530;
-  border: dashed 5px #214151;
+  border: solid 5px #214151;
 }
 
 a {
