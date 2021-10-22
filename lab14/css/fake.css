@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ @import url("https://use.typekit.net/lvn8lej.css");
 
 body{
   background-image: url(../img/sunset.jpg);
@@ -15,24 +15,47 @@ body{
   z-index: -100;
   padding: 0px;
   margin: 0px;
+  padding-left: 99px;
+  text-align: left;
 }
 
-#year-box {
+#nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  top: 0;
+  Left: 0;
+}
+
+.right {
+  top: 0;
+  right: 0;
+}
+
+.year-box {
 
 }
 
 
-#text-box {
+.text-box {
   position: absolute;
   display: block;
-  text-align: left;
   width: 108%;
   height: 50px;
+
 }
 
 h1 {
-  font-size: 1000%;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-size: 1300%;
+  font-style: normal;
   color: black;
+  padding-left: 70px;
+  padding-bottom: -50px;
 }
 
 p {
