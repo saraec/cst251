@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    background-image: url(../img/dekooning.jpg);
+    background-size: cover;
+    font-family: Arial, "san serif";
+    padding: 18px;
+    margin: 50px;
+    font-size: 125%;
+    color: #214151;
+}
+
+div#content {
+  padding-top: 35px;
+  padding-left: 20px;
+  background-color: #b18e76;
+  height: 121vh;
+  border: solid 5px #214151;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 175%;
+    letter-spacing: 3px;
+    }
+
+h1 {
+  font-size: 300%;
+  letter-spacing: 4px;
+}
+
+.paragraph{
+  color:#ac9f84;
+  font-size: 75%;
+}
+
+#links {
+  background-color: #b18e76;
+  position: sticky;
+  top: 0;
+  padding: 1px;
+  color: #653530;
+  border: solid 5px #214151;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
