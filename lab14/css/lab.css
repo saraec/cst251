@@ -1,28 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 body {
-    background-image: url(../img/dekooning.jpg);
+    background-color: #000000;
     background-size: cover;
     font-family: Arial, "san serif";
     padding: 18px;
     margin: 50px;
     font-size: 125%;
-    color: #214151;
+    color: #ffffff;
 }
 
 div#content {
   padding-top: 35px;
   padding-left: 20px;
-  background-color: #b18e76;
+  background-color: #000000;
   height: 121vh;
-  border: solid 5px #214151;
   margin-top: 15px;
   margin-bottom: 50px;
 }
 
 
 h1, h2, h3 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'IM Fell English SC', serif;
     font-weight: 800;
     font-style: normal;
     font-size: 175%;
@@ -36,16 +35,16 @@ h1 {
 
 .paragraph{
   color:#ac9f84;
-  font-size: 75%;
+  font-size: 65%;
 }
 
 #links {
-  background-color: #b18e76;
+  background-color: #000000;
   position: sticky;
   top: 0;
   padding: 1px;
-  color: #653530;
-  border: solid 5px #214151;
+  color: #ffffff;
+  border: solid 3px #ffffff;
 }
 
 a {

@@ -44,7 +44,6 @@ body{
   width: 41%;
   height: 200px;
   padding-left: 86px;
-
   top: 525px;
 }
 
@@ -62,6 +61,7 @@ h1 {
 }
 
 p {
+  position: absolute;
   font-size: 80%;
   font-family: 'Libre Baskerville', serif;
   color: white;
