@@ -38,15 +38,13 @@ body{
   padding: 70px;
 }
 
-
 .text-box {
   position: absolute;
   display: block;
   width: 41%;
   height: 200px;
   padding-left: 86px;
-  font-size: 80%;
-  font-family: 'Libre Baskerville', serif;
+
   top: 525px;
 }
 
@@ -64,6 +62,8 @@ h1 {
 }
 
 p {
+  font-size: 80%;
+  font-family: 'Libre Baskerville', serif;
   color: white;
   line-height: 23px;
 }
