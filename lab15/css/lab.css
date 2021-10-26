@@ -2,7 +2,7 @@
 
 body {
     background-image: radial-gradient(#618794, #09536c);
-    background-size: cover;
+    background-size: contain;
     font-family: Arial, "san serif";
     padding: 18px;
     margin: 50px;
