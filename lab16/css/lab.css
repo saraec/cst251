@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 body {
-    background-color: #000000;
+    background-image: url(../img/web.png);
     background-size: cover;
-    font-family: Arial, "san serif";
+    font-family: inherit;
     padding: 18px;
     margin: 50px;
     font-size: 125%;
-    color: #ffffff;
+    color: #000000;
 }
 
 div#content {
-  padding-top: 35px;
-  padding-left: 20px;
-  background-color: #000000;
+  background-color: #ffffff99;
+  background-size: cover;
   height: 121vh;
-  margin-top: 15px;
-  margin-bottom: 50px;
 }
 
 
@@ -33,9 +30,8 @@ h1 {
   letter-spacing: 4px;
 }
 
-.paragraph{
-  color:#ac9f84;
-  font-size: 65%;
+.summary{
+  column-count:3;
 }
 
 #links {
@@ -44,7 +40,6 @@ h1 {
   top: 0;
   padding: 1px;
   color: #ffffff;
-  border: solid 3px #ffffff;
 }
 
 a {
@@ -55,11 +50,4 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
-}
-
-iframe#fake {
-    width: 800px;
-    height: 500px;
-    resize: both;
-    overflow: hidden;
 }
