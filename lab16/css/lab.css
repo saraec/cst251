@@ -2,6 +2,10 @@
 
 body {
     background-image: url(../img/web.png);
+    background-color: #ebebeb;
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: none;
     background-size: cover;
     font-family: inherit;
     padding: 18px;
@@ -11,7 +15,6 @@ body {
 }
 
 div#content {
-  background-color: #ffffff99;
   background-size: cover;
   height: 121vh;
 }
@@ -30,8 +33,40 @@ h1 {
   letter-spacing: 4px;
 }
 
+h1:hover{
+  font-size: 375%;
+  transition-duration: 1s;
+}
+
 .summary{
   column-count:3;
+}
+
+.summary:hover {
+  line-height: 1em;
+  word-spacing: 1.5em;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes animation {
+ from {left: 5%;}
+ to {left: 80%;}
+ transition: opacity 5s;
+}
+
+#animation img {
+  width: 300px;
+  height: auto;
+  padding-top: 10px;
+}
+
+div#animation {
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 #links {
@@ -40,6 +75,7 @@ h1 {
   top: 0;
   padding: 1px;
   color: #ffffff;
+  border-radius: 7px;
 }
 
 a {
