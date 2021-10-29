@@ -28,7 +28,8 @@ h1, h2, h3 {
     letter-spacing: 3px;
     }
 
-h1 {
+.title {
+  width: 50%;
   font-size: 300%;
   letter-spacing: 4px;
 }
@@ -50,18 +51,39 @@ h1:hover{
 }
 
 @keyframes animation {
- from {left: 5%;}
- to {left: 80%;}
- transition: opacity 5s;
+0% {
+    left: 0px;
 }
 
-#animation img {
+25% {
+    left: 0px;
+}
+50% {
+    left: 500px;
+}
+
+55% {
+    left: 500px;
+}
+
+70% {
+    left: 500px;
+}
+
+100% {
+    left: 0px;
+}
+}
+
+#animated-div img {
   width: 300px;
   height: auto;
   padding-top: 10px;
+  display: inline-block;
 }
 
-div#animation {
+#animated-div {
+  animation: animated-div 5s 1;
   animation-duration: 5s;
   animation-timing-function: ease-out;
   animation-delay: 2s;
