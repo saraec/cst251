@@ -49,46 +49,25 @@ h1:hover{
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
 }
-
-@keyframes animation {
-0% {
-    left: 0px;
+div#animated-div {
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-25% {
-    left: 0px;
-}
-50% {
-    left: 500px;
-}
-
-55% {
-    left: 500px;
-}
-
-70% {
-    left: 500px;
-}
-
-100% {
-    left: 0px;
-}
+@keyframes fly {
+  from {left: 0;}
+  to {left: 600px;}
 }
 
 #animated-div img {
   width: 300px;
   height: auto;
   padding-top: 10px;
+  animation-name: fly;
   display: inline-block;
-}
-
-#animated-div {
-  animation: animated-div 5s 1;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 #links {
