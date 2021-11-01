@@ -50,11 +50,12 @@ h1:hover{
   transition-timing-function: ease-in-out;
 }
 div#animated-div {
+  position: relative;
   animation-duration: 5s;
   animation-timing-function: ease-out;
+    animation-name: fly;
   animation-delay: 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 @keyframes fly {
