@@ -10,7 +10,12 @@ body {
     color: #ffffff;
 }
 
-div#content {
+header {
+  display: flex;
+}
+
+main {
+  display: flex;
   padding-top: 35px;
   padding-left: 20px;
   background-color: #000000;
@@ -19,6 +24,13 @@ div#content {
   margin-bottom: 50px;
 }
 
+aside {
+  display: flex;
+}
+
+footer {
+  display: flex;
+}
 
 h1, h2, h3 {
     font-family: 'IM Fell English SC', serif;
@@ -47,6 +59,12 @@ h1 {
   border: solid 3px #ffffff;
 }
 
+a#thumb {
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -55,11 +73,4 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
-}
-
-iframe#fake {
-    width: 800px;
-    height: 500px;
-    resize: both;
-    overflow: hidden;
 }
