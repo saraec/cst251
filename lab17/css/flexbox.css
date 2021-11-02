@@ -10,8 +10,14 @@ body {
     color: #ffffff;
 }
 
-header {
+.container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  position: relative;
 }
 
 main {
@@ -25,11 +31,15 @@ main {
 }
 
 aside {
-  display: flex;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 600px;
 }
 
 footer {
-  display: flex;
+  position: relative;
+  display: inline-block;
 }
 
 h1, h2, h3 {
@@ -51,21 +61,23 @@ h1 {
 }
 
 #links {
+  display: inline-block;
   background-color: #000000;
-  position: sticky;
+  position: relative;
   top: 0;
   padding: 1px;
   color: #ffffff;
   border: solid 3px #ffffff;
 }
 
-a#thumb {
+img {
   position: relative;
-  width: 100px;
+  max-width: 30%;
   height: auto;
 }
 
 a {
+    width: 30%;
     text-decoration: none;
     color: white;
 }
