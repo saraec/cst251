@@ -2,11 +2,11 @@
 <html>
 <head>
 	<title>Lab 17: CSS Layout</title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/flexbox.css">
 </head>
 <body>
 
-<div class="container"
+<div class="container">
 <header id="header"><h1>Lab 17: CSS Layout</h1>
 </header>
 	<nav id="links">
@@ -20,14 +20,23 @@
 	</nav>
 
 	<main id="content">
-		<section class="subject">
-			<h2>Subject</h2>
-			<p>The subject of this lab is to create three different websites with the same layout using different strategies: float, flexbox, and grid.</p>
-		</section>
-
 		<section class="summary">
 			<h2>Summary</h2>
 			<p></p>
+		</section>
+
+		<aside id="side">
+			<div class="thumb">
+				<a href="../lab13/index.html"></a>
+				<a href="../lab14/index.html"></a>
+				<a href="../lab16/index.html"></a>
+			</div>
+		</aside>
+		<br></br>
+
+		<section class="subject">
+			<h2>Subject</h2>
+			<p>The subject of this lab is to create three different websites with the same layout using different strategies: float, flexbox, and grid.</p>
 		</section>
 
 		<section class="results">
@@ -36,13 +45,6 @@
 		</section>
 	</main>
 
-	<aside id="side">
-		<div class="thumb">
-	   	<a href="../lab13/index.html"><img src="img/lab13.jpg" alt="image"></a>
-	  	<a href="../lab14/index.html"><img src="img/lab14.jpg" alt="image"></a>
-	  	<a href="../lab16/index.html"><img src="img/lab16.jpg" alt="image"></a>
-	  </div>
-	</aside>
 
 <footer id="foot">
 	<p>schristensen@csumb.edu</p>
