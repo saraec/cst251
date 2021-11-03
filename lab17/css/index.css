@@ -43,6 +43,22 @@ header {
 }
 
 main {
+  display: flex;
+}
+
+#subject {
+  width: 45%;
+  margin: 20px;
+  padding: 15px;
+  border: solid 2px white;
+}
+
+aside {
+  position: relative;
+  float: right;
+  width: 275px;
+  height: 200px;
+  font-size: 135%;
   margin: 20px;
   padding: 15px;
   border: solid 2px white;
