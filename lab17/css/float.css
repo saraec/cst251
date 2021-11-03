@@ -39,7 +39,6 @@ h1 {
 header {
   display:inline-block;
   float: right;
-  position: relative;
   width: 100%;
   height: 90px;
   padding: 10px;
@@ -49,7 +48,6 @@ header {
 #links {
   float: right;
   background-color: #000000;
-  position: relative;
   display: inline-block;
   width: 25%;
   padding: 1px;
@@ -58,7 +56,6 @@ header {
 }
 
 aside {
-  position: relative;
   display: inline-block;
   float: right;
   width: 200px;
@@ -70,7 +67,6 @@ aside {
 }
 
 .thumb {
-  position: absolute;
   display: inline-block;
   float: right;
   max-width: 100%;
@@ -82,7 +78,6 @@ aside {
 }
 
 footer {
-  position: relative;
   display: flex;
   width: 100%;
   height: 75px;
@@ -97,7 +92,6 @@ footer p {
 
 main {
   float: left;
-  position: relative;
   width: 70%;
   border: solid 3px #ffffff;
   margin: 20px;
