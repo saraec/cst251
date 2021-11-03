@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 body {
-    background-image: url(../img/web.png);
-    background-color: #ebebeb;
+    background-color: #000000;
     background-position: right top;
     background-attachment: fixed;
     background-repeat: none;
@@ -11,7 +10,7 @@ body {
     padding: 18px;
     margin: 50px;
     font-size: 125%;
-    color: #000000;
+    color: #ffffff;
 }
 
 div#content {
@@ -28,13 +27,32 @@ h1, h2, h3 {
     }
 
 header {
-  border-color: red
+  display: block;
+  position: relative;
+  width: 85%;
+  font-size: 200%;
+}
+
+#links {
+  border: solid 2px white;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  padding: 1px;
+  color: #ffffff;
 }
 
 main {
-  border-color: red
+  margin: 20px;
+  padding: 15px;
+  border: solid 2px white;
 }
 
 footer {
-  border-color: red
+  border: solid 2px white;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
 }
