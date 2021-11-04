@@ -105,6 +105,10 @@ figcaption {
   justify-content: space-between;
 }
 
+.lovers, .sun, .death{
+  display: flex;
+}
+
 img {
   max-width: 400px;
   min-width: 100px;
@@ -158,6 +162,10 @@ a:hover {
     font-size: 70%;
     background-color: white;
     color: black;
+  }
+
+  h1 {
+    font-size: 80%;
   }
 
   #links, .thumb {
