@@ -159,4 +159,13 @@ a:hover {
     background-color: white;
     color: black;
   }
+
+  #links, .thumb {
+    width: 35%;
+  }
+
+ .lovers, .sun, .death{
+   width: 100%;
+ }
+
 }
