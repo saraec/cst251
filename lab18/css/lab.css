@@ -76,7 +76,6 @@ header {
 }
 
 aside {
-  float: right;
   min-width: 250px;
   max-width: 700px;
   max-height: 500px;
@@ -115,6 +114,7 @@ img {
 footer {
   max-width: 100%;
   max-height: auto;
+  text-align: center;
   position: relative;
   bottom: 0;
   padding: 7px;
@@ -134,17 +134,17 @@ a:hover {
 #links {
   background-color: black;
   position: sticky;
-  z-index: 100px;
+  z-index: 1000px;
   top: 0;
   margin: 7px;
   padding: 1px;
-  color: #ffffff;
+  color: white;
   border-radius: 7px;
   border: solid 2px white;
 }
 
-@media screen and (max-width: 750px) {
-  body {
+@media screen and (max-width: 600px) {
+  #container {
     width: 100%;
     background-color: white;
     color: black;
