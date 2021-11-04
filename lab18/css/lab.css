@@ -150,3 +150,12 @@ a:hover {
     color: black;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #container {
+    width: 100%;
+    font-size: 70%;
+    background-color: white;
+    color: black;
+  }
+}
