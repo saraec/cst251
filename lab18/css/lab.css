@@ -76,7 +76,7 @@ header {
 }
 
 aside {
-  min-width: 250px;
+  min-width: 200px;
   max-width: 700px;
   max-height: 500px;
   height: auto;
@@ -107,6 +107,7 @@ figcaption {
 
 img {
   max-width: 400px;
+  min-width: 100px;
   width: 200px;
   height: auto;
 }
