@@ -148,25 +148,48 @@ a:hover {
   border: solid 2px white;
 }
 
+@media screen and (max-width: 830px) {
+  #picture {
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    width: 75%;
+  }
+
 @media screen and (max-width: 600px) {
   #container {
-    width: 100%;
+    width: 80%;
+    max-width: 300px;
     background-color: white;
     color: black;
   }
+
+      header, main, #links {
+      font-size: 50%;
+      max-width: 300px;
+      width: 80%;
+  }
+     footer {
+       color: black;
+       font-size: 40%;
+     }
 }
 
 @media screen and (max-width: 400px) {
   #container {
     width: 100%;
     font-size: 70%;
+    border: none;
     background-color: white;
     color: black;
   }
 
-  h1 {
-    font-size: 80%;
-  }
+#picture {
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 100%;
+  width: 75%;
+}
 
   #links, .thumb {
     width: 35%;
