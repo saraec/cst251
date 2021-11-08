@@ -28,6 +28,7 @@ main {
   width: 100%;
   margin: 15px;
   border: solid 1px white;
+  overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -192,7 +193,7 @@ a:hover {
 }
 
   #links, .thumb {
-    width: 35%;
+    sswidth: 35%;
   }
 
  .lovers, .sun, .death{
