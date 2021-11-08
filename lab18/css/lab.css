@@ -153,12 +153,12 @@ a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     max-width: 100%;
-    width: 75%;
+    min-width: 75%;
   }
 
 @media screen and (max-width: 600px) {
   #container {
-    width: 80%;
+    min-width: 80%;
     max-width: 300px;
     background-color: white;
     color: black;
@@ -177,7 +177,7 @@ a:hover {
 
 @media screen and (max-width: 400px) {
   #container {
-    width: 100%;
+    min-width: 100%;
     font-size: 70%;
     border: none;
     background-color: white;
@@ -196,7 +196,7 @@ a:hover {
   }
 
  .lovers, .sun, .death{
-   width: 100%;
+   min-width: 100%;
  }
 
 }
