@@ -127,6 +127,18 @@ footer {
   border: solid 2px white;
 }
 
+#links {
+  background-color: black;
+  position: relative;
+  z-index: 1000px;
+  top: 0;
+  margin: 7px;
+  padding: 1px;
+  color: white;
+  border-radius: 7px;
+  border: solid 2px white;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -135,18 +147,6 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
-}
-
-#links {
-  background-color: black;
-  position: sticky;
-  z-index: 1000px;
-  top: 0;
-  margin: 7px;
-  padding: 1px;
-  color: white;
-  border-radius: 7px;
-  border: solid 2px white;
 }
 
 @media screen and (max-width: 830px) {
