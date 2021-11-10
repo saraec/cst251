@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&family=IM+Fell+English+SC&display=swap');
+
+body {
+    background-color: #000000;
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    font-family: inherit;
+    padding: 18px;
+    margin: 50px;
+    font-size: 100%;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin: 15px;
+  border: solid 1px white;
+  overflow: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-family: 'IM Fell English SC', serif;
+  color: white;
+  padding: 7px;
+}
+
+header {
+   padding: 15px;
+}
+
+#text {
+  position: relative;
+  max-width: 65%;
+  max-height: auto;
+  margin: 10px;
+  padding: 10px;
+  padding-right: 25px;
+  border: solid 2px white;
+}
+
+.col-md-4 {
+  padding: 7px;
+}
+
+.bg-light {
+  position: sticky;
+  color: green;
+}
+
+#picture {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 30%;
+  min-width: 200px;
+}
