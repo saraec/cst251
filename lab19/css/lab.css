@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
 
 body {
     background-color: #000000;
@@ -6,11 +6,11 @@ body {
     background-attachment: fixed;
     background-repeat: none;
     background-size: cover;
-    font-family: inherit;
+    font-family: serif;
     padding: 18px;
     margin: 50px;
     font-size: 100%;
-    color: #ffffff;
+    color: #ecede2;
 }
 
 .container {
@@ -27,15 +27,19 @@ main {
   flex-direction: row;
   min-width: 100%;
   margin: 15px;
-  border: solid 1px white;
+  border: solid 1px #ecede2;
   overflow: hidden;
+  text-align: center;
 }
 
 h1, h2, h3 {
   font-family: 'Averia Serif Libre', cursive;
-  font-family: 'IM Fell English SC', serif;
-  color: white;
+  color: #ecede2;
   padding: 7px;
+}
+
+h1 {
+  font-size: 350%;
 }
 
 header {
@@ -47,8 +51,7 @@ header {
   max-width: 65%;
   max-height: auto;
   margin: 10px;
-  padding: 10px;
-  padding-left: 30px;
+  padding: 30px;
   border: solid 2px white;
 }
 
@@ -70,3 +73,19 @@ img {
   max-width: 30%;
   min-width: 200px;
 }
+
+.bg-light {
+    background-color: #ecede2!important;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 140%;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #787878;
+  }
